@@ -1,27 +1,62 @@
+html,
 body {
-  background-size: cover;
-  background-color: rgba(255, 255, 255, .5);
-  width: 100%;
+  /*background-image: url('../images/background.jpg');*/
   height: 100%;
 }
-
-/*#main {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  opacity: 0.3;
-}
-
-.background {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
 
 .main {
-  /*background-image: url('background.jpg');*/
-  background-color: "black";
-  /*background-size: cover;*/
+    /* The image used */
+    /*background-image: url("background.jpg");*/
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.whei {
+  width: 20%;
+  transition: all 0.3s;
+}
+
+.whei:hover
+{
+  transform: scale(1, 1);
+  width:30%;
+  cursor: pointer;
+}
+
+.whei > img {
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+
+.portfolio {
+  position: absolute;
+  width: 80%;
+  /*border: solid 1px black;*/
+  /*background-color: white;*/
+  /*visibility: hidden;*/
+  display: none;
+}
+
+h2 {
+  color: #54C6D6;
+  text-align: center;
 }
