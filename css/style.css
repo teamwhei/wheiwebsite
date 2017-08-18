@@ -27,7 +27,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 
 .whei {
@@ -59,4 +59,8 @@ body {
 h2 {
   color: #54C6D6;
   text-align: center;
+}
+
+.modal-overlay {
+  display: none;
 }
