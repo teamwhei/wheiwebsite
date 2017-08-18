@@ -9,7 +9,7 @@ $(document).ready(function () {
   })
 
   $(document).on('click', '.portfolio', function (e) {
-    $(this).hide()
+    $(this).hide(1000)
     $('.whei').fadeIn(500)
   })
 })
