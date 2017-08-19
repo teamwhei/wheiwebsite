@@ -31,14 +31,14 @@ body {
 }
 
 .whei {
-  width: 20%;
-  transition: all 0.3s;
+  width: 30%;
+  transition: all 0.2s;
 }
 
 .whei:hover
 {
   transform: scale(1, 1);
-  width:30%;
+  width:45%;
   cursor: pointer;
 }
 
