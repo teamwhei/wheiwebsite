@@ -1,46 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>whei</title>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <link rel="stylesheet" href="/css/style.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>whei</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
 
-  <body>
+<body>
+  <div class="main">
+    <div class="bg">
 
-    <div class="main">
-      <div class="background">
-        <img src="images/whei-logo.png" alt="Whei Logo">
+    </div>
+    <div class="whei">
+      <img src="./css/whei-logo.svg" alt="">
+    </div>
+    <div class="row portfolio">
+      <div class="col s12">
+        <h2>Our Work</h2>
       </div>
 
-      <div class="fixed-action-btn">
-        <a class="waves-effect waves-light btn red modal-trigger" href="#contact_us"><i class="material-icons left">email</i>Contact Us</a>
-      </div>
-
-        <div id="contact_us" class="modal">
-          <div class="modal-content">
-            <h4>Write to us!</h4>
-            <form action="https://formspree.io/team@whei.io" method="POST">
-              <label>Your Name</label>
-              <input type="text" name="name">
-              <label>Your Email</label>
-              <input type="email" name="_replyto">
-              <label>Your Message</label>
-              <input type="text" name="message">
-          </div>
-            <div class="modal-footer">
-              <input type="submit" value="Send" class="btn btn-primary">
+      <div class="gallery">
+        <div class="col s6">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://github.com"><img src="./images/uglyfoods.png"></a>
             </div>
-          </form>
+          </div>
+        </div>
+
+        <div class="col s6">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://github.com"><img src="./images/uglyfoods.png"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://github.com"><img src="./images/uglyfoods.png"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://github.com"><img src="./images/uglyfoods.png"></a>
+            </div>
+          </div>
+        </div>
+
       </div>
+
     </div>
 
-  </body>
+    <div class="fixed-action-btn">
+      <a class="waves-effect waves-light btn red modal-trigger" href="#contact_us"><i class="material-icons left">email</i>Contact Us</a>
+    </div>
+            <div id="contact_us" class="modal">
+              <div class="modal-content">
+                <h4>Write to us!</h4>
+                <form action="https://formspree.io/team@whei.io" method="POST">
+                  <label>Your Name</label>
+                  <input type="text" name="name">
+                  <label>Your Email</label>
+                  <input type="email" name="_replyto">
+                  <label>Your Message</label>
+                  <input type="text" name="message">
+              </div>
+                <div class="modal-footer">
+                  <input type="submit" value="Send" class="btn btn-primary">
+                </div>
+              </form>
+          </div>
+  </div>
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-  <script src="js/script.js" charset="utf-8"></script>
+</body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+<script src="js/script.js" charset="utf-8"></script>
+
 </html>
