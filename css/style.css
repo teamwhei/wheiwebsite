@@ -55,6 +55,7 @@ h2 {
 .portfolio {
   position: absolute;
   width: 100%;
+  top: 5%;
   /*border: solid 1px black;*/
   /*background-color: white;*/
   /*visibility: hidden;*/
