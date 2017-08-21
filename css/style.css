@@ -33,6 +33,8 @@ h2 {
     justify-content: center;
     position: relative;
     /*z-index: 1;*/
+
+    bottom: 10%;
 }
 
 .whei {
@@ -55,6 +57,7 @@ h2 {
 .portfolio {
   position: absolute;
   width: 100%;
+  margin: 0 auto;
   top: 5%;
   /*border: solid 1px black;*/
   /*background-color: white;*/
