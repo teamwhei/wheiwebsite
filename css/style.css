@@ -10,9 +10,6 @@ h2 {
 }
 
 .main {
-    /* The image used */
-    /*background-image: url("background.jpg");*/
-
     /* Full height */
     height: 100%;
 
@@ -45,7 +42,7 @@ h2 {
 .whei:hover
 {
   transform: scale(1, 1);
-  width:45%;
+  width:40%;
   cursor: pointer;
 }
 
@@ -57,16 +54,14 @@ h2 {
 .portfolio {
   position: absolute;
   width: 100%;
-  margin: 0 auto;
-  top: 5%;
-  /*border: solid 1px black;*/
-  /*background-color: white;*/
-  /*visibility: hidden;*/
+  /*margin: 0 auto;*/
+  top: 16.25%;
   display: none;
+  margin-bottom: 100px;
 }
 
 .card-image img{
-  max-height: 190px;
+  /*height: 210px;*/
 }
 
 .whei-header{
@@ -79,6 +74,6 @@ h2 {
 
 @media screen and (min-width: 480px) {
     .portfolio {
-      width:60%;
+      width: 70%;
     }
 }
