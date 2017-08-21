@@ -4,6 +4,11 @@ body {
   height: 100%;
 }
 
+h2 {
+  color: #54C6D6;
+  text-align: center;
+}
+
 .main {
     /* The image used */
     /*background-image: url("background.jpg");*/
@@ -56,9 +61,12 @@ body {
   display: none;
 }
 
-h2 {
-  color: #54C6D6;
-  text-align: center;
+.card-image img{
+  max-height: 190px;
+}
+
+.whei-header{
+  font-family: 'Josefin Sans'
 }
 
 .modal-overlay {
