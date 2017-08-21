@@ -49,7 +49,7 @@ body {
 
 .portfolio {
   position: absolute;
-  width: 60%;
+  width: 100%;
   /*border: solid 1px black;*/
   /*background-color: white;*/
   /*visibility: hidden;*/
@@ -63,4 +63,10 @@ h2 {
 
 .modal-overlay {
   display: none;
+}
+
+@media screen and (min-width: 480px) {
+    .portfolio {
+      width:60%;
+    }
 }
