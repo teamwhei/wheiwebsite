@@ -4,6 +4,11 @@ body {
   height: 100%;
 }
 
+h2 {
+  color: #54C6D6;
+  text-align: center;
+}
+
 .main {
     /* The image used */
     /*background-image: url("background.jpg");*/
@@ -28,17 +33,19 @@ body {
     justify-content: center;
     position: relative;
     /*z-index: 1;*/
+
+    bottom: 10%;
 }
 
 .whei {
-  width: 20%;
-  transition: all 0.3s;
+  width: 30%;
+  transition: all 0.2s;
 }
 
 .whei:hover
 {
   transform: scale(1, 1);
-  width:30%;
+  width:45%;
   cursor: pointer;
 }
 
@@ -49,18 +56,29 @@ body {
 
 .portfolio {
   position: absolute;
-  width: 60%;
+  width: 100%;
+  margin: 0 auto;
+  top: 5%;
   /*border: solid 1px black;*/
   /*background-color: white;*/
   /*visibility: hidden;*/
   display: none;
 }
 
-h2 {
-  color: #54C6D6;
-  text-align: center;
+.card-image img{
+  max-height: 190px;
+}
+
+.whei-header{
+  font-family: 'Josefin Sans'
 }
 
 .modal-overlay {
   display: none;
+}
+
+@media screen and (min-width: 480px) {
+    .portfolio {
+      width:60%;
+    }
 }
