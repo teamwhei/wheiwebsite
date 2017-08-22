@@ -58,6 +58,7 @@ h2 {
   top: 16.25%;
   display: none;
   margin-bottom: 100px;
+  left: 10%;
 }
 
 .card-image img{
@@ -75,5 +76,6 @@ h2 {
 @media screen and (min-width: 480px) {
     .portfolio {
       width: 70%;
+      left: 15%;
     }
 }
