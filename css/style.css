@@ -2,6 +2,7 @@ html,
 body {
   /*background-image: url('../images/background.jpg');*/
   height: 100%;
+  margin-left: 0;
 }
 
 h2 {
@@ -57,7 +58,6 @@ h2 {
   top: 16.25%;
   display: none;
   margin-bottom: 100px;
-  margin-left: 0;
 }
 
 .card-image img{
